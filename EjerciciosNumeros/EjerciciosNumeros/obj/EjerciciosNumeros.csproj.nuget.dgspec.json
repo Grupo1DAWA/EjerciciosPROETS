@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosDePogramacionETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj": {}
+    "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosPROETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosDePogramacionETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj": {
+    "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosPROETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosDePogramacionETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj",
+        "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosPROETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj",
         "projectName": "EjerciciosNumeros",
-        "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosDePogramacionETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj",
+        "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosPROETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj",
         "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosDePogramacionETS\\EjerciciosNumeros\\EjerciciosNumeros\\obj\\",
+        "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosPROETS\\EjerciciosNumeros\\EjerciciosNumeros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
