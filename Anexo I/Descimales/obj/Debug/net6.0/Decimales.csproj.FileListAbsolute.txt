@@ -1,0 +1,15 @@
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\bin\Debug\net6.0\Decimales.exe
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\bin\Debug\net6.0\Decimales.deps.json
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\bin\Debug\net6.0\Decimales.runtimeconfig.json
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\bin\Debug\net6.0\Decimales.dll
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\bin\Debug\net6.0\Decimales.pdb
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\Decimales.csproj.AssemblyReference.cache
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\Decimales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\Decimales.AssemblyInfoInputs.cache
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\Decimales.AssemblyInfo.cs
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\Decimales.csproj.CoreCompileInputs.cache
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\Decimales.dll
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\refint\Decimales.dll
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\Decimales.pdb
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\Decimales.genruntimeconfig.cache
+C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\Descimales\obj\Debug\net6.0\ref\Decimales.dll
