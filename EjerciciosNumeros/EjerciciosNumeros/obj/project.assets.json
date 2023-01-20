@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ModuloPRO\\.nuget\\packages\\": {}
+    "C:\\Users\\guill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosPROETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj",
+      "projectUniqueName": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj",
       "projectName": "EjerciciosNumeros",
-      "projectPath": "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosPROETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj",
-      "packagesPath": "C:\\Users\\ModuloPRO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ModuloPRO\\Desktop\\EjerciciosPROETS\\EjerciciosNumeros\\EjerciciosNumeros\\obj\\",
+      "projectPath": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\EjerciciosNumeros\\EjerciciosNumeros\\EjerciciosNumeros.csproj",
+      "packagesPath": "C:\\Users\\guill\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\EjerciciosNumeros\\EjerciciosNumeros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ModuloPRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\guill\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
