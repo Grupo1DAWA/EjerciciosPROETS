@@ -13,3 +13,18 @@ C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\St
 C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\String\obj\Debug\net6.0\String.pdb
 C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\String\obj\Debug\net6.0\String.genruntimeconfig.cache
 C:\Users\matia\Documents\ETS\Práctica V - Herramientas colaborativas\Anexo I\String\obj\Debug\net6.0\ref\String.dll
+F:\ProETS\Anexo I\String\bin\Debug\net6.0\String.exe
+F:\ProETS\Anexo I\String\bin\Debug\net6.0\String.deps.json
+F:\ProETS\Anexo I\String\bin\Debug\net6.0\String.runtimeconfig.json
+F:\ProETS\Anexo I\String\bin\Debug\net6.0\String.dll
+F:\ProETS\Anexo I\String\bin\Debug\net6.0\String.pdb
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\String.csproj.AssemblyReference.cache
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\String.GeneratedMSBuildEditorConfig.editorconfig
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\String.AssemblyInfoInputs.cache
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\String.AssemblyInfo.cs
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\String.csproj.CoreCompileInputs.cache
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\String.dll
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\refint\String.dll
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\String.pdb
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\String.genruntimeconfig.cache
+F:\ProETS\Anexo I\String\obj\Debug\net6.0\ref\String.dll
