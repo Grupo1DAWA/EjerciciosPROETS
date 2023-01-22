@@ -18,9 +18,9 @@ namespace String
                 Console.WriteLine("1) Palíndromo");
                 Console.WriteLine("2) Mayusculas y Minusculas");
                 Console.WriteLine("3) Número de ocurrencias");
-                Console.WriteLine("4) Número de ocurrencias");
+                Console.WriteLine("4) Repetir frase Nº veces");
                 Console.WriteLine("5) Repetir Frase");
-                Console.WriteLine("6) Número de ocurrencias");
+                Console.WriteLine("6) Borrar similitudes en un string");
                 Console.WriteLine("7) Salir");
                 do
                 {
@@ -79,24 +79,32 @@ namespace String
                     case 3:
                         string? entra = "";
                         char buscador;
-                        string? convertir = "";
                         int contador = 0;
+                        char vocal;
+                        bool salir = false;
                         Console.WriteLine("Inserte una frase");
                         entra = Console.ReadLine();
-                        Console.WriteLine("Introduce un caracter");
-                        convertir = Console.ReadLine();
-                        for (int i = 0; i < entra.Length; i++)
+                        do
                         {
-                            if (entra.Contains(convertir))
+                            Console.WriteLine("¿Qué caracter quieres buscar?");
+                            if (char.TryParse(Console.ReadLine(), out vocal))
                             {
-                                contador++;
+                                Console.WriteLine($"El caracter introducido es: {vocal}");
                             }
                             else
                             {
-                                Console.WriteLine("El valor no es valido");
+                                Console.WriteLine("El campo no puede estar vacio");
+                            }
+                            salir = true;
+                        } while (!salir);
+                        foreach(char vocales in entra)
+                        {
+                            if(vocales == vocal)
+                            {
+                                contador++;
                             }
                         }
-                        Console.WriteLine("Se ha repetido: " + contador + " vez/ces");
+                        Console.WriteLine("Se ha repetido: " + contador + " veces");
                         Console.WriteLine("Presiona una tecla para elegir otra opción");
                         Console.ReadKey();
                         Console.Clear();
@@ -190,6 +198,8 @@ namespace String
 
                     case 7:
                         Console.WriteLine("Adiós");
+                        break;
+                    default:
                         break;
                 }
             } while (opcion != 7);
