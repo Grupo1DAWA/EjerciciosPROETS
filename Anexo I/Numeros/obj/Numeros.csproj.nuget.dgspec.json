@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matia\\Documents\\ETS\\Práctica V - Herramientas colaborativas\\Anexo I\\Numeros\\Numeros.csproj": {}
+    "F:\\ProETS\\Anexo I\\Numeros\\Numeros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matia\\Documents\\ETS\\Práctica V - Herramientas colaborativas\\Anexo I\\Numeros\\Numeros.csproj": {
+    "F:\\ProETS\\Anexo I\\Numeros\\Numeros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matia\\Documents\\ETS\\Práctica V - Herramientas colaborativas\\Anexo I\\Numeros\\Numeros.csproj",
+        "projectUniqueName": "F:\\ProETS\\Anexo I\\Numeros\\Numeros.csproj",
         "projectName": "Numeros",
-        "projectPath": "C:\\Users\\matia\\Documents\\ETS\\Práctica V - Herramientas colaborativas\\Anexo I\\Numeros\\Numeros.csproj",
-        "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matia\\Documents\\ETS\\Práctica V - Herramientas colaborativas\\Anexo I\\Numeros\\obj\\",
+        "projectPath": "F:\\ProETS\\Anexo I\\Numeros\\Numeros.csproj",
+        "packagesPath": "C:\\Users\\Alejandro\\.nuget\\packages\\",
+        "outputPath": "F:\\ProETS\\Anexo I\\Numeros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

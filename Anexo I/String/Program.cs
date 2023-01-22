@@ -10,170 +10,199 @@ namespace String
 
         public static void Main(string[] args)
         {
-            string entrada;
-            int nOpcion = 0;
-            int tamaño = 0;
-            int introducir = 0;
-            bool comprobacion = true;
-            while (comprobacion)
+            int opcion;
+            bool comprobarentrada = false;
+            do
             {
-                Console.WriteLine("Elige una de las siguientes opciones:");
-                Console.WriteLine("        1 palíndromo\r\n        2 mayusculas y minusculas\r\n        3 número de ocurrencias\r\n        4 Palabras repetidas\r\n        5  repetir ocurrencia\r\n        6 borrar");
-                entrada = Console.ReadLine();
-                if (!int.TryParse(entrada, out nOpcion))
+                Console.WriteLine("Menú");
+                Console.WriteLine("1) Palíndromo");
+                Console.WriteLine("2) Mayusculas y Minusculas");
+                Console.WriteLine("3) Número de ocurrencias");
+                Console.WriteLine("4) Repetir frase Nº veces");
+                Console.WriteLine("5) Repetir Frase");
+                Console.WriteLine("6) Borrar similitudes en un string");
+                Console.WriteLine("7) Salir");
+                do
                 {
-                    Console.WriteLine("Ha Introducido un formato incorrecto");
-                }
-                else
-                {
-                    if (nOpcion == 1 || nOpcion == 2 || nOpcion == 3 || nOpcion == 4 || nOpcion == 5 || nOpcion == 6)
+                    Console.Write("Escoge una opción: ");
+                    while (!Int32.TryParse(Console.ReadLine(), out opcion))
                     {
-                        comprobacion = false;
+                        Console.WriteLine("Debe introducir un número de las opciones");
+                    }
+                    if (opcion == 1 || opcion == 2 || opcion == 3 || opcion == 4 || opcion == 5 || opcion == 6 || opcion == 7)
+                    {
+                        comprobarentrada = true;
                     }
                     else
                     {
-                        Console.WriteLine("El numero introducido no es una opcion del menú");
+                        Console.WriteLine("Introduzca un número de las opciones");
                     }
-                }
-            }
-            if (nOpcion == 1)
-            {
-                string? datoEntrada;
-                string? guardado = "";
-                Console.WriteLine("Inserte un palíndromo");
-                datoEntrada = Console.ReadLine();
-                for (int i = datoEntrada.Length - 1; i >= 0; i--)
+                } while (!comprobarentrada);
+                switch (opcion)
                 {
-                    guardado = guardado + datoEntrada[i];
-                }
-                if (guardado == datoEntrada)
-                {
-                    Console.WriteLine("felicidades es un palíndromo");
-                }
-                else
-                {
-                    Console.WriteLine("No es palíndromo");
-
-                }
-            }
-
-            if (nOpcion == 2)
-            {
-                string datoEntrada;
-                string mayusculas;
-                string minusculas;
-                Console.WriteLine("Inserte una palabra");
-                datoEntrada = Console.ReadLine();
-                mayusculas = datoEntrada.ToUpper();
-                minusculas = datoEntrada.ToLower();
-                Console.WriteLine(datoEntrada + " en minusculas es " + minusculas + " y en mayusculas "+ mayusculas);
-            }
-
-            if (nOpcion == 3)
-            {
-                string? datoEntrada;
-                char buscador;
-                string convertir;
-                int contador = 0;
-                Console.WriteLine("Inserte una frase");
-                datoEntrada = Console.ReadLine();
-                Console.WriteLine("Introduce un caracter");
-                convertir = Console.ReadLine();
-                if (!char.TryParse(convertir, out buscador))
-                {
-
-                }
-                else
-                {
-                    for (int i = 0; i < datoEntrada.Length; i++)
-                    {
-                        if (datoEntrada[i] == buscador)
+                    case 1:
+                        string? datoEntrada = "";
+                        string? guardado = "";
+                        Console.WriteLine("Inserte un palíndromo");
+                        datoEntrada = Console.ReadLine();
+                        for (int i = datoEntrada.Length - 1; i >= 0; i--)
                         {
-                            contador++;
+                            guardado = guardado + datoEntrada[i];
                         }
-                    }
-                }
-                Console.WriteLine(contador);
-            }
-
-            if (nOpcion == 4)
-            {
-                string datoEntrada1;
-                string datoEntrada2;
-                int nVeces;
-                Console.WriteLine("Inserte una palabra");
-                datoEntrada1 = Console.ReadLine();
-                Console.WriteLine("Inserte una palabra");
-                datoEntrada2 = Console.ReadLine();
-                comprobacion = true;
-                while (comprobacion)
-                {
-                    Console.WriteLine("Cuantas veces que se repita");
-                    entrada = Console.ReadLine();
-                    if (!int.TryParse(entrada, out tamaño))
-                    {
-                        Console.WriteLine("Ha Introducido un formato incorrecto");
-                    }
-                    else
-                    {
-                        if (tamaño >= 0)
+                        if (guardado == datoEntrada)
                         {
-                            comprobacion = false;
+                            Console.WriteLine("felicidades es un palíndromo");
                         }
                         else
                         {
-                            Console.WriteLine("La cantidadad introducida no es valida");
+                            Console.WriteLine("No es palíndromo");
                         }
-                    }
-                }
-                for(int i = 0; i < tamaño; i++)
-                {
-                    Console.Write(datoEntrada1 + " " + datoEntrada2 + " ");
-                }
-            }
+                        Console.WriteLine("Presiona una tecla para elegir otra opción");
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
 
-            if (nOpcion == 5)
-            {
-                string? datoEntrada;
-                Console.WriteLine("Inserte una palabra");
-                datoEntrada = Console.ReadLine();
-                for(int i = 0; i < datoEntrada.Length; i++)
-                {
-                    Console.Write(datoEntrada[i] +""+ datoEntrada[i]);
-                }
-            }
+                    case 2:
+                        string? entrada = "";
+                        string? mayusculas = "";
+                        string? minusculas = "";
+                        Console.WriteLine("Inserte una palabra");
+                        entrada = Console.ReadLine();
+                        mayusculas = entrada.ToUpper();
+                        minusculas = entrada.ToLower();
+                        Console.WriteLine("La frase introducida es: " + entrada + "\nEn minusculas es " + minusculas + "\nY en mayusculas " + mayusculas);
+                        Console.WriteLine("Presiona una tecla para elegir otra opción");
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
 
-            if (nOpcion == 6)
-            {
-                string? cadena1;
-                string? palabra = "";
-                string? cadena2;
-                string cadenafinal = "";
-                Console.WriteLine("Inserte una frase");
-                cadena1 = Console.ReadLine();
-                Console.WriteLine("Inserte una segunda frase");
-                cadena2 = Console.ReadLine();
-                for (int i = 0; i < cadena1.Length; i++)
-                {
-                    if (cadena1[i] != ' ')
-                    {
-                        palabra = palabra + cadena1[i];
-                    }
-                    if (cadena1[i] == ' ')
-                    {
+                    case 3:
+                        string? entra = "";
+                        char buscador;
+                        int contador = 0;
+                        char vocal;
+                        bool salir = false;
+                        Console.WriteLine("Inserte una frase");
+                        entra = Console.ReadLine();
+                        do
+                        {
+                            Console.WriteLine("¿Qué caracter quieres buscar?");
+                            if (char.TryParse(Console.ReadLine(), out vocal))
+                            {
+                                Console.WriteLine($"El caracter introducido es: {vocal}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("El campo no puede estar vacio");
+                            }
+                            salir = true;
+                        } while (!salir);
+                        foreach(char vocales in entra)
+                        {
+                            if(vocales == vocal)
+                            {
+                                contador++;
+                            }
+                        }
+                        Console.WriteLine("Se ha repetido: " + contador + " veces");
+                        Console.WriteLine("Presiona una tecla para elegir otra opción");
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+
+                    case 4:
+                        string? datoEntrada1 = "";
+                        string? datoEntrada2 = "";
+                        int tamano = 0;
+                        int nVeces;
+                        Console.WriteLine("Inserte una palabra");
+                        datoEntrada1 = Console.ReadLine();
+                        Console.WriteLine("Inserte una palabra");
+                        datoEntrada2 = Console.ReadLine();
+                        bool comprobacion = true;
+                        while (comprobacion)
+                        {
+                            Console.WriteLine("Cuantas veces quieres que se repita");
+                            entrada = Console.ReadLine();
+                            if (!int.TryParse(entrada, out tamano))
+                            {
+                                Console.WriteLine("Ha Introducido un formato incorrecto");
+                            }
+                            else
+                            {
+                                if (tamano >= 0)
+                                {
+                                    comprobacion = false;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("La cantidadad introducida no es valida");
+                                }
+                            }
+                        }
+                        for (int i = 0; i < tamano; i++)
+                        {
+                            Console.Write(datoEntrada1 + " " + datoEntrada2 + " ");
+                        }
+                        Console.WriteLine("Presiona una tecla para elegir otra opción");
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+
+                    case 5:
+                        string? frase = "";
+                        Console.WriteLine("Inserte una palabra");
+                        frase = Console.ReadLine();
+                        for (int i = 0; i < frase.Length; i++)
+                        {
+                            Console.Write(frase[i] + "" + frase[i]);
+                        }
+                        Console.WriteLine("Presiona una tecla para elegir otra opción");
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+
+                    case 6:
+                        string? cadena1 = "";
+                        string? palabra = "";
+                        string? cadena2 = "";
+                        string cadenafinal = "";
+                        Console.WriteLine("Inserte una frase");
+                        cadena1 = Console.ReadLine();
+                        Console.WriteLine("Inserte una segunda frase");
+                        cadena2 = Console.ReadLine();
+                        for (int i = 0; i < cadena1.Length; i++)
+                        {
+                            if (cadena1[i] != ' ')
+                            {
+                                palabra = palabra + cadena1[i];
+                            }
+                            if (cadena1[i] == ' ')
+                            {
+                                if (palabra != cadena2)
+                                {
+                                    cadenafinal = cadenafinal + palabra + " ";
+                                }
+                                palabra = "";
+                            }
+                        }
                         if (palabra != cadena2)
                         {
-                            cadenafinal = cadenafinal + palabra + " ";
+                            cadenafinal = cadenafinal + palabra;
                         }
-                        palabra = "";
-                    }
+                        Console.WriteLine(cadenafinal);
+                        Console.WriteLine("Presiona una tecla para elegir otra opción");
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+
+                    case 7:
+                        Console.WriteLine("Adiós");
+                        break;
+                    default:
+                        break;
                 }
-                if (palabra != cadena2)
-                {
-                    cadenafinal = cadenafinal + palabra;
-                }
-                Console.WriteLine(cadenafinal);
-            }
+            } while (opcion != 7);
         }
     }
 }

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\matia\\.nuget\\packages\\": {}
+    "C:\\Users\\Alejandro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matia\\Documents\\ETS\\Práctica V - Herramientas colaborativas\\Anexo I\\Descimales\\Decimales.csproj",
+      "projectUniqueName": "F:\\ProETS\\Anexo I\\Descimales\\Decimales.csproj",
       "projectName": "Decimales",
-      "projectPath": "C:\\Users\\matia\\Documents\\ETS\\Práctica V - Herramientas colaborativas\\Anexo I\\Descimales\\Decimales.csproj",
-      "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matia\\Documents\\ETS\\Práctica V - Herramientas colaborativas\\Anexo I\\Descimales\\obj\\",
+      "projectPath": "F:\\ProETS\\Anexo I\\Descimales\\Decimales.csproj",
+      "packagesPath": "C:\\Users\\Alejandro\\.nuget\\packages\\",
+      "outputPath": "F:\\ProETS\\Anexo I\\Descimales\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\matia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
