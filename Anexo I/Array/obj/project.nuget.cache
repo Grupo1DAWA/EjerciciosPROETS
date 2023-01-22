@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "version": 2,
   "dgSpecHash": "4yYAN8TOVmBWmirc0fJ8CWVHY3GtskD2xzmqahfk5sgmXQiH8/I4oA+dXrnxQF5ef+cojuxij8gPW8bI7f8VmA==",
@@ -5,4 +6,13 @@
   "projectFilePath": "F:\\ProETS\\Anexo I\\Array\\Array.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "JeETIVUIvl5Wg6JqLkPvUU3I9GhJ9DCUORPbbGmi8jItrJ1Tp5JkzAX66bUOmXP4HQeALIaciaDZjvFFoPI/kA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\Array\\Array.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> Stashed changes
 }
