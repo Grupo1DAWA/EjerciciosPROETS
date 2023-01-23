@@ -43,3 +43,18 @@ C:\Users\guill\Documents\1ºDAWA\ETS\Segundo Trimestre\ProyectoETS\ProyectoProgr
 C:\Users\guill\Documents\1ºDAWA\ETS\Segundo Trimestre\ProyectoETS\ProyectoProgramación\EjerciciosProgramaciónETS\Anexo I\Array\obj\Debug\net6.0\Array.pdb
 C:\Users\guill\Documents\1ºDAWA\ETS\Segundo Trimestre\ProyectoETS\ProyectoProgramación\EjerciciosProgramaciónETS\Anexo I\Array\obj\Debug\net6.0\Array.genruntimeconfig.cache
 C:\Users\guill\Documents\1ºDAWA\ETS\Segundo Trimestre\ProyectoETS\ProyectoProgramación\EjerciciosProgramaciónETS\Anexo I\Array\obj\Debug\net6.0\ref\Array.dll
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\Array.csproj.AssemblyReference.cache
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\Array.AssemblyInfoInputs.cache
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\Array.AssemblyInfo.cs
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\Array.csproj.CoreCompileInputs.cache
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\Array.dll
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\refint\Array.dll
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\Array.pdb
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\bin\Debug\net6.0\Array.exe
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\bin\Debug\net6.0\Array.deps.json
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\bin\Debug\net6.0\Array.runtimeconfig.json
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\bin\Debug\net6.0\Array.dll
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\bin\Debug\net6.0\Array.pdb
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\Array.genruntimeconfig.cache
+C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\obj\Debug\net6.0\ref\Array.dll

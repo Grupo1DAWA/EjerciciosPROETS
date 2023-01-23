@@ -17,7 +17,7 @@ namespace Array
                 global::System.Console.WriteLine("Dato inválido");
             }
             int[] arrayMain = new int[tamanioArray];
-            for (int i = 0;int<tamanioArray;i++)
+            for (int i = 0;i<tamanioArray;i++)
             {
                 global::System.Console.WriteLine("Introduce números para llenar el array: {0}/{1}",i,tamanioArray);
                 while (!int.TryParse(Console.ReadLine(), out option))
@@ -27,7 +27,7 @@ namespace Array
                 arrayMain[i] = option;
             }
             MenuMain();
-            while (int.TryParse(console.ReadLine(), out option))
+            while (int.TryParse(Console.ReadLine(), out option))
             {
                 switch (option)
                 {
@@ -38,6 +38,7 @@ namespace Array
                     case 5: Ejercicios.OrdenarArray(arrayMain); break;
                     case 6: Ejercicios.BinamizarArray(arrayMain); break;
                 }
+
             }
             global::System.Console.WriteLine("Pulsa una tecla para finalizar");
             Console.ReadKey();
@@ -56,57 +57,86 @@ namespace Array
     }
     class Ejercicios
     {
-        public static void CalcularMinimo(int[] array)
+        public static void CalcularMinimo(int[] Listado)
         {
-            int menor = array[0];
-            for (int i = 0; i < array.lenght; i++)
+            int menor = Listado[0];
+            for (int i = 0; i < Listado.Length; i++)
             {
-                if (menor > array[i])
+                if (menor > Listado[i])
                 {
-                    menor = array[i];
+                    menor = Listado[i];
                 }
             }
             global::System.Console.WriteLine("El menor número es: {0}", menor);
         }
-        public static void CalcularMaximo(int[] array)
+        public static void CalcularMaximo(int[] Listado)
         {
-            int mayor = array[0];
-            for (int i = 0; i < array.lenght; i++)
+            int mayor = Listado[0];
+            for (int i = 0; i < Listado.Length; i++)
             {
-                if (mayor < array[i])
+                if (mayor < Listado[i])
                 {
-                    mayor = array[i];
+                    mayor = Listado[i];
                 }
             }
             global::System.Console.WriteLine("El mayor número es: {0}", mayor);
         }
-        public static void CalcularMediana(int[] array)
+        public static void CalcularMediana(int[] Listado)
+        {
+            for (int k = 0; k < Listado.Length; k++)
+            {
+                for (int f = 0; f < Listado.Length - 1 - k; f++)
+                {
+                    if (Listado[f] > Listado[f + 1])
+                    {
+                        int aux = Listado[f];
+                        Listado[f] = Listado[f + 1];
+                        Listado[f + 1] = aux;
+                    }
+                }
+            }
+            int total = Listado.Length;
+            if (Listado.Length % 2 == 0)
+            {
+                Console.WriteLine("la mediana es: {1} y {0}", Listado[total / 2], Listado[(total / 2) - 1]);
+            }
+            else
+            {
+                Console.WriteLine("la mediana es: " + Listado[total / 2]);
+            }
+        }
+        public static void CalcularMedia(int[] Listado)
         {
             int total = 0;
             decimal media;
-            for (int i = 0; i < array.Lenght; i++)
+            for (int i = 0; i < Listado.Length; i++)
             {
-                total += array[i];
+                total += Listado[i];
             }
-            media = total/array.Lenght;
-            global::System.Console.WriteLine("La mediana es: " + media);
+            media = total / Listado.Length;
+            global::System.Console.WriteLine("La media es: " + media);
         }
-        public static void CalcularMedia(int[] array)
+        public static void OrdenarArray(int[] Listado)
         {
-            int total = 0;
-            decimal mediana;
-            for (int i = 0; i < array.Lenght; i++)
+            for (int k = 0; k < Listado.Length; k++)
             {
-                total += array[i];
+                for (int f = 0; f < Listado.Length - 1 - k; f++)
+                {
+                    if (Listado[f] > Listado[f + 1])
+                    {
+                        int aux = Listado[f];
+                        Listado[f] = Listado[f + 1];
+                        Listado[f + 1] = aux;
+                    }
+                }
             }
-            mediana = total / 2;
-            global::System.Console.WriteLine("La mediana es: " + mediana);
+            for (int k = 0; k < Listado.Length - 1; k++)
+            {
+                Console.WriteLine(Listado[k]);
+            }
+            
         }
-        public static void OrdenarArray(int[] array)
-        {
-
-        }
-        public static void BinamizarArray(int[] array)
+        public static void BinamizarArray(int[] Listado)
         {
             int binar;
             global::System.Console.WriteLine("Da número medio para binarizar");
@@ -114,9 +144,9 @@ namespace Array
             {
                 global::System.Console.WriteLine("Dato inválido");
             }
-            for (int i = 0; i < array.Lenght; i++)
+            for (int i = 0; i < Listado.Length; i++)
             {
-                if (array[i] < binar)
+                if (Listado[i] < binar)
                 {
                     Console.Write("0");
                 } 
@@ -129,147 +159,3 @@ namespace Array
         }
     }
 }
-/*
-
-if (nOpcion == 5)
-{
-    comprobacion = true;
-    while (comprobacion)
-    {
-        Console.WriteLine("Cunatos elementos quieres introducir?");
-        entrada = Console.ReadLine();
-        if (!int.TryParse(entrada, out tamaño))
-        {
-            Console.WriteLine("Ha Introducido un formato incorrecto");
-        }
-        else
-        {
-            if (tamaño > 0)
-            {
-                comprobacion = false;
-            }
-            else
-            {
-                Console.WriteLine("El tamaño introducido no es valido");
-            }
-        }
-    }
-    int[] listado = new int[tamaño];
-
-    for (int i = 0; i < listado.Length; i++)
-    {
-        comprobacion = true;
-        while (comprobacion)
-        {
-            Console.WriteLine("Inserte un valor");
-            entrada = Console.ReadLine();
-            if (!int.TryParse(entrada, out introducir))
-            {
-                Console.WriteLine("El formato introducido es incorrecto");
-            }
-            else
-            {
-                comprobacion = false;
-            }
-        }
-        listado[i] = introducir;
-    }
-    int[] nuevoListado = new int[tamaño];
-
-
-    for (int k = 0; k < tamaño; k++)
-    {
-        for (int f = 0; f < tamaño - 1 - k; f++)
-        {
-            if (listado[f] > listado[f + 1])
-            {
-                int aux;
-                aux = listado[f];
-                listado[f] = listado[f + 1];
-                listado[f + 1] = aux;
-            }
-        }
-    }
-    for (int k = 0; k < tamaño - 1; k++)
-    {
-        Console.WriteLine(listado[k]);
-    }
-
-
-}
-
-
-
-
-
-if (nOpcion == 6) //COMPROBAR
-{
-    comprobacion = true;
-    double media = 0;
-    double suma = 0;
-    double suma2 = 0;
-    double varianza = 0;
-    double resultado = 0;
-    while (comprobacion)
-    {
-        Console.WriteLine("Cunatos elementos quieres introducir?");
-        entrada = Console.ReadLine();
-        if (!int.TryParse(entrada, out tamaño))
-        {
-            Console.WriteLine("Ha Introducido un formato incorrecto");
-        }
-        else
-        {
-            if (tamaño > 0)
-            {
-                comprobacion = false;
-            }
-            else
-            {
-                Console.WriteLine("El tamaño introducido no es valido");
-            }
-        }
-    }
-
-    int[] listado = new int[tamaño];
-    double[] desviacion = new double[tamaño];
-
-    for (int i = 0; i < listado.Length; i++)
-    {
-        comprobacion = true;
-        while (comprobacion)
-        {
-            Console.WriteLine("Inserte un valor");
-            entrada = Console.ReadLine();
-            if (!int.TryParse(entrada, out introducir))
-            {
-                Console.WriteLine("El formato introducido es incorrecto");
-            }
-            else
-            {
-                comprobacion = false;
-            }
-        }
-        listado[i] = introducir;
-    }
-
-    for (int i = 0; i < listado.Length; i++)
-    {
-        suma = suma + listado[i];
-    }
-    media = suma / listado.Length;
-    Console.WriteLine("La media es " + media);
-
-    for (int i = 0; i < listado.Length; i++)
-    {
-        desviacion[i] = listado[i] - media;
-        desviacion[i] = desviacion[i] * desviacion[i];
-        suma2 = suma2 + desviacion[i];
-    }
-    suma = suma - 1;
-    varianza = suma2 / suma;
-
-    resultado = Math.Sqrt(varianza);
-    Console.WriteLine("la desviacion tipica es " + resultado);
-}
-*/
