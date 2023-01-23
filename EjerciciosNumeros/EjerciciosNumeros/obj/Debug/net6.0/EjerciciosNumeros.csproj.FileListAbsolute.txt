@@ -1,0 +1,15 @@
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\bin\Debug\net6.0\EjerciciosNumeros.exe
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\bin\Debug\net6.0\EjerciciosNumeros.deps.json
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\bin\Debug\net6.0\EjerciciosNumeros.runtimeconfig.json
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\bin\Debug\net6.0\EjerciciosNumeros.dll
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\bin\Debug\net6.0\EjerciciosNumeros.pdb
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\EjerciciosNumeros.csproj.AssemblyReference.cache
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\EjerciciosNumeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\EjerciciosNumeros.AssemblyInfoInputs.cache
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\EjerciciosNumeros.AssemblyInfo.cs
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\EjerciciosNumeros.csproj.CoreCompileInputs.cache
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\EjerciciosNumeros.dll
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\refint\EjerciciosNumeros.dll
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\EjerciciosNumeros.pdb
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\EjerciciosNumeros.genruntimeconfig.cache
+C:\Git-Repos\EjerciciosPROETS\EjerciciosNumeros\EjerciciosNumeros\obj\Debug\net6.0\ref\EjerciciosNumeros.dll
