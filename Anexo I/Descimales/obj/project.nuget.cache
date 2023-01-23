@@ -1,15 +1,25 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Rxk1uvK5QrBfklPvuU9ttInhz9RdBvKqoZT69kEqbnlnxcZwcuYZjKYCUB1C32WxXhJNaZCkXVYOnjnLP2Qmxw==",
   "success": true,
   "projectFilePath": "C:\\Git-Repos\\EjerciciosPROETS\\Anexo I\\Descimales\\Decimales.csproj",
+=======
+  "dgSpecHash": "Qj2peXtOu4BG0GeoeN6vvyMnpUiviXefvF1VeUwUveG71p2BSAa7oFB336I9vYQvKM8RRFazB/RCivgXdgEXuA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\Descimales\\Decimales.csproj",
+>>>>>>> main
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problema al leer el archivo de caché C:\\Git-Repos\\EjerciciosPROETS\\Anexo I\\Descimales\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+=======
+      "message": "Problema al leer el archivo de caché C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\Descimales\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+>>>>>>> main
     }
   ]
 }

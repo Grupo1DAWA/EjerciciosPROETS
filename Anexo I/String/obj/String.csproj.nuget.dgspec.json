@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Git-Repos\\EjerciciosPROETS\\Anexo I\\String\\String.csproj": {}
   },
   "projects": {
@@ -19,6 +20,22 @@
         "configFilePaths": [
           "C:\\Users\\Sergi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+    "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\String\\String.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\String\\String.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\String\\String.csproj",
+        "projectName": "String",
+        "projectPath": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\String\\String.csproj",
+        "packagesPath": "C:\\Users\\guill\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\String\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\guill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> main
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +76,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> main
         }
       }
     }

@@ -1,15 +1,25 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "w25kGPfX1gpQKywTfuzbfnvGaz9BJ6OB+I18UFKAfzHWLeQEZsPZMXKUiON/ClLZVuXN29kBbUQaCACNW3pUew==",
   "success": true,
   "projectFilePath": "C:\\Git-Repos\\EjerciciosPROETS\\Anexo I\\String\\String.csproj",
+=======
+  "dgSpecHash": "41X8T1p4XwRqhWpaf76RqWl75CPwoeQpa53u4WV9UN/ll4JfqDg2cRdxbge8NyimMhHxEepklEXSiMa1uKEKzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\String\\String.csproj",
+>>>>>>> main
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Problema al leer el archivo de caché C:\\Git-Repos\\EjerciciosPROETS\\Anexo I\\String\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+=======
+      "message": "Problema al leer el archivo de caché C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\String\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+>>>>>>> main
     }
   ]
 }

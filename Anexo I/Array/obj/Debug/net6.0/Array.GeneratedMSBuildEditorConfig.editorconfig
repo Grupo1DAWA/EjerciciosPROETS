@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Array
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Git-Repos\EjerciciosPROETS\Anexo I\Array\
+=======
+build_property.ProjectDir = C:\Users\guill\Documents\1ºDAWA\ETS\Segundo Trimestre\ProyectoETS\ProyectoProgramación\EjerciciosProgramaciónETS\Anexo I\Array\
+>>>>>>> main
