@@ -11,6 +11,7 @@ namespace Numeros
 
         public static void Main(string[] args)
         {
+            int variable;
             int opcion;
             bool comprobarentrada = false;
             string entrada;
