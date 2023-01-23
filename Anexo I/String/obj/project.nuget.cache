@@ -1,18 +1,15 @@
-<<<<<<< Updated upstream
-{
-  "version": 2,
-  "dgSpecHash": "cQH/ZeRn9FDZ/GeJW4aXFh0eh+xJMue0JjRRqXkA42dnqLCkDgPpUSJVcJaOPSyamf9PhSo3olffg01Clo2LoA==",
-  "success": true,
-  "projectFilePath": "F:\\ProETS\\Anexo I\\String\\String.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
-=======
 {
   "version": 2,
   "dgSpecHash": "41X8T1p4XwRqhWpaf76RqWl75CPwoeQpa53u4WV9UN/ll4JfqDg2cRdxbge8NyimMhHxEepklEXSiMa1uKEKzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\String\\String.csproj",
   "expectedPackageFiles": [],
-  "logs": []
->>>>>>> Stashed changes
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\guill\\Documents\\1ºDAWA\\ETS\\Segundo Trimestre\\ProyectoETS\\ProyectoProgramación\\EjerciciosProgramaciónETS\\Anexo I\\String\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+    }
+  ]
 }
